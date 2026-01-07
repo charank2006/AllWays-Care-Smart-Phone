@@ -40,9 +40,8 @@ export const ResourceFinderStep: React.FC<ResourceFinderStepProps> = ({ resource
                                     <MapsIcon /> View on Maps
                                 </a>
                             )}
-                        </div>
-                        <button onClick={() => isFavorite(res.id) ? removeFavorite(res.id) : addFavorite(res)}><StarIcon isFavorite(res.id)} /></button>
-                    </div>
+                        <button  onClick={() =>    isFavorite(res.id)      ? removeFavorite(res.id)      : addFavorite(res)  }>  <StarIcon isActive={isFavorite(res.id)} /></button>
+
                     {(res.type === 'Hospital' || res.type === 'Clinic') && (
                         <button onClick={() => onBookResource(res)} className="mt-4 w-full bg-cyan-600 text-white font-bold py-2 px-3 rounded-lg hover:bg-cyan-700 text-sm">
                             Book Appointment
