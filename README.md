@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AllWays Care: AI-Powered Personal Health Hub
 
-# Run and deploy your AI Studio app
+HealthGuardian transforms smartphones into a **24/7 personal health guardian**. By combining AI-driven monitoring with inclusive design, it bridges the gap between patients, caregivers, and emergency services.
 
-This contains everything you need to run your app locally.
+##  Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1hrn7YlPVn2r6rPQAGRFXuc-NvkxIsn4Y
+* **AI Health Monitoring:** Continuous tracking of BP, glucose, and heart rate with anomaly detection.
+* **Predictive Alerts:** Warns caregivers *before* a crisis occurs using predictive analytics.
+* **Visual Medicine Reminders:** Image-based alerts showing the exact pill to prevent dosage errors.
+* **Emergency SOS:** One-tap triggers with live location sharing and caregiver coordination.
 
-## Run Locally
+##  Inclusive Design
 
-**Prerequisites:**  Node.js
+| User Group | Specialized Interface |
+| :--- | :--- |
+| **Elderly** | High-contrast large text, voice guidance, and simplified navigation. |
+| **Blind** | 100% Screen Reader compatibility (TalkBack/VoiceOver) and voice commands. |
+| **Deaf** | Icon-driven alerts with haptic (vibration) and visual feedback. |
+| **Speech-Impaired** | Predefined gesture and tap-based emergency triggers. |
 
+##  Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Core:** AI Symptom Checker & Predictive Engine
+* **Accessibility:** Screen Reader Optimization, Haptic APIs, Voice UI
+* **Coordination:** IVR Integration, Wearable Sync, Live Location Sharing
+
