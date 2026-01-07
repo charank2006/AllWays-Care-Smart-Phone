@@ -1,0 +1,9 @@
+{
+  "name": "Copy of AllWays Care: AI Symptom Checker",
+  "description": "An AI-powered symptom checker that provides potential health insights and recommendations based on user-described symptoms. This tool is for informational purposes only and is not a substitute for professional medical advice.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
